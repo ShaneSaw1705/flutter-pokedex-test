@@ -2,17 +2,17 @@ import 'package:flutter/cupertino.dart';
 import 'package:iospokemonflutter/pages/index.dart';
 
 void main() {
-  runApp(const app());
+  runApp(const App());
 }
 
-class app extends StatefulWidget {
-  const app({super.key});
+class App extends StatefulWidget {
+  const App({super.key});
 
   @override
-  State<app> createState() => _appState();
+  State<App> createState() => _AppState();
 }
 
-class _appState extends State<app> {
+class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return const CupertinoApp(
